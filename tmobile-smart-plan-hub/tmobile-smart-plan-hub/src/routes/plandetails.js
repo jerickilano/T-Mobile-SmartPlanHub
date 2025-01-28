@@ -1,7 +1,6 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 
-function PlanDetails() {
+function planDetails() {
   const { id } = useParams(); // Get the plan ID from the route
   return (
     <div>
@@ -11,4 +10,4 @@ function PlanDetails() {
   );
 }
 
-export default PlanDetails;
+export default planDetails;
