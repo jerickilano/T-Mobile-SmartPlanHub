@@ -1,4 +1,4 @@
-function landingPage () {
+function LandingPage () {
     return (
         <div>
             <h1>Welcome to T-Mobile Smart Plan Hub</h1>
@@ -6,4 +6,4 @@ function landingPage () {
         </div>);
 }
 
-export default landingPage;
+export default LandingPage;
